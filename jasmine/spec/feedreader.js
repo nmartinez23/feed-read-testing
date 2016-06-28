@@ -26,7 +26,6 @@ $(function() {
             expect(allFeeds.length).not.toBe(0);
         });
 
-
         /* Test that loops through each feed in the allFeeds object and
          * ensures it has a URL defined and that the URL is not empty.
          */
@@ -37,7 +36,6 @@ $(function() {
                 expect(feed.url.length).not.toBe(0);
             });
          });
-
 
         /* Test that loops through each feed in the allFeeds object and
          * ensures it has a name defined and that the name is not empty.
@@ -51,11 +49,8 @@ $(function() {
          });
     });
 
-
     /* Test suite named "The menu" */
     describe('The Menu', function() {
-
-
 
         /* Test that ensures the menu element is hidden by default. You'll
          * have to analyze the HTML and the CSS to determine how we're
@@ -122,29 +117,3 @@ $(function() {
         });
     });
 }());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
