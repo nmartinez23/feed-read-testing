@@ -116,7 +116,7 @@ $(function() {
         // continue to load the additional feeds
         it('has content from next feed that changes when loaded', function(done) {
             loadFeed(2, function() {
-                expect($('.feed').html()).not.toEqual(nextFeed);
+                expect($('.feed').html()).not.toBe(nextFeed);
                 done();
             });
         });
